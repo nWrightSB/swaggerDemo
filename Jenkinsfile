@@ -1,12 +1,7 @@
 pipeline {
-  agent {
-    node {
-      label 'main_host'
-    }
-
-  }
+  agent none
   stages {
-    stage('') {
+    stage('error') {
       steps {
         sh 'echo "hi nathan!"'
       }
