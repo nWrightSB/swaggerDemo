@@ -14,7 +14,7 @@ paths:
       tags:
       - books
       summary: Retrives an array of book objects scoped to title or authorID.
-      description: This is an new change to test jenkins
+      description: This is a new change to test jenkins
       produces:
       - application/json
       parameters:
